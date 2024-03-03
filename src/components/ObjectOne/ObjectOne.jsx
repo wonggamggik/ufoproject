@@ -1,14 +1,14 @@
 import React from "react";
-import ObjectProduct from "./ObjectImage/ObjectImage";
-import ObjectContent from "./ObjectText/ObjectContent";
+import ObjectImage from "./ObjectImage/ObjectImage";
+import ObjectText from "./ObjectText/ObjectText";
 
 export default function ObjectOne() {
   return (
     <div className="wrapper">
       <article>
         <div className="wrapper-inner">
-          <ObjectProduct />
-          <ObjectContent />
+          <ObjectImage />
+          <ObjectText />
         </div>
         {/* ::after - 구분선 나오게 할 부분 */}
       </article>

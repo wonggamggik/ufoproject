@@ -1,5 +1,5 @@
 import React from "react";
-import ObjectOne from "../ObjectOne/ObjectText";
+import ObjectOne from "../ObjectOne/ObjectOne";
 
 export default function ObjectsListBody() {
   return (
