@@ -1,1 +1,43 @@
+.header {
+  width: 100%;
+  padding: 100px 20px 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--color-background);
+  font-family: var(--font-gccJalnan2);
+  color: var(--color-text-header);
+  text-shadow: 4px 3px 0px var(--color-text-shadow);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
+.ufo {
+  font-size: 8rem;
+  margin: 0.25px;
+  line-height: 1px;
+}
+
+.title__main {
+  font-size: 5rem;
+  margin: 30px;
+}
+
+.title__main > span {
+  color: var(--color-text-capital);
+}
+
+.title__sub {
+  margin-top: 1rem;
+  text-shadow: 2px 2px var(--color-text-shadow);
+}
+
+.links {
+  font-family: var(--font-cafe24surround);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 0px var(--color-text-shadow);
+}

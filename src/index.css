@@ -1,13 +1,72 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "googleBlackHanSans";
+  src: url(./assets/Black_Han_Sans/BlackHanSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "googleAnton";
+  src: url(./assets/Anton/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: "gccJalnan2";
+  src: url(./assets/Jalnan2/Jalnan2TTF.ttf);
+}
+
+@font-face {
+  font-family: "cafe24surround";
+  src: url(./assets/Cafe24Ssurround-v2.0/Cafe24Ssurround-v2.0.ttf);
+}
+
+:root {
+  /* Color */
+  --color-background: var(--color-purple4);
+
+  --color-text-header: var(--color-white);
+  --color-text-shadow: var(--color-purple3);
+  --color-text-capital: var(--color-yellow);
+
+  --color-purple1: #d3cce3;
+  --color-purple2: #e9e4f0;
+  --color-purple3: #8239e7;
+  --color-purple4: #ad7def;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-yellow: #fcd53f;
+
+  /* Font */
+  --font-googleHeader: "googleBlackHanSans";
+  --font-googleAnton: "googleAnton";
+  --font-gccJalnan2: "gccJalnan2";
+  --font-cafe24surround: "cafe24surround";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+p {
+  padding: 0px;
+  margin: 0px;
 }

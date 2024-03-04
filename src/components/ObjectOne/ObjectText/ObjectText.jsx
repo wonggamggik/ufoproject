@@ -1,10 +1,14 @@
 import React from "react";
+import styles from "./ObjectText.module.css";
 
 export default function ObjectText() {
+  const title = "파리 박수";
+  const site = "쿠팡";
+
   return (
     <div>
-      <h1>파리 박수</h1>
-      <p>
+      <h1 className={styles.title}>{title}</h1>
+      <p className={styles.description}>
         '파리 박수’는 아이들이 즐길 수 있는 장난감이면서도, 실제로 파리를 잡는
         기능을 가진 독특한 제품입니다. 버튼을 누르면 박수 소리를 내며 움직이는
         이 장난감은 아이들에게 재미를 주고, 동시에 가정에서 해충을 효과적으로
@@ -21,10 +25,11 @@ export default function ObjectText() {
       <a
         href="https://www.coupang.com/vp/products/6528201285?itemId=14488982001&vendorItemId=81732167530&q=%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94+%EB%AC%BC%EA%B1%B4&itemsCount=27&searchId=4c2f82c40c1d46f8805b1141b6da4931&rank=23&isAddedCart="
         rel="nofollow"
-        className="linkButton"
+        className={styles.linkButton}
         target="_blank"
       >
-        파리 박수 to 쿠팡
+        {title} to {site}
+        <span className={styles.logo}></span>
       </a>
     </div>
   );
