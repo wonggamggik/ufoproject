@@ -1,12 +1,13 @@
 import React from "react";
 import ObjectImage from "./ObjectImage/ObjectImage";
 import ObjectText from "./ObjectText/ObjectText";
+import styles from "./ObjectOne.module.css";
 
 export default function ObjectOne() {
   return (
-    <div className="wrapper">
+    <div className={styles.wrapper}>
       <article>
-        <div className="wrapper-inner">
+        <div className={styles.wrapper_inner}>
           <ObjectImage />
           <ObjectText />
         </div>

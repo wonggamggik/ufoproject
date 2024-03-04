@@ -1,0 +1,13 @@
+.wrapper_inner {
+  display: flex;
+  margin: auto;
+  max-width: 900px;
+  gap: 50px;
+  padding: 100px 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .wrapper_inner {
+    flex-direction: column !important;
+  }
+}
