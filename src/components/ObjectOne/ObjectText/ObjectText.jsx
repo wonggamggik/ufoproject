@@ -6,7 +6,7 @@ export default function ObjectText() {
   const site = "쿠팡";
 
   return (
-    <div>
+    <div className={styles.content}>
       <h1 className={styles.title}>{title}</h1>
       <p className={styles.description}>
         '파리 박수’는 아이들이 즐길 수 있는 장난감이면서도, 실제로 파리를 잡는

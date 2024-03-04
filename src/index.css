@@ -13,23 +13,18 @@ code {
 }
 
 @font-face {
-  font-family: "googleBlackHanSans";
-  src: url(./assets/Black_Han_Sans/BlackHanSans-Regular.ttf);
-}
-
-@font-face {
-  font-family: "googleAnton";
-  src: url(./assets/Anton/Anton-Regular.ttf);
-}
-
-@font-face {
   font-family: "gccJalnan2";
-  src: url(./assets/Jalnan2/Jalnan2TTF.ttf);
+  src: url(./assets/fonts/Jalnan2/Jalnan2TTF.ttf);
 }
 
 @font-face {
   font-family: "cafe24surround";
-  src: url(./assets/Cafe24Ssurround-v2.0/Cafe24Ssurround-v2.0.ttf);
+  src: url(./assets/fonts/Cafe24Ssurround-v2.0/Cafe24Ssurround-v2.0.ttf);
+}
+
+@font-face {
+  font-family: "notosans";
+  src: url(./assets/fonts/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf);
 }
 
 :root {
@@ -40,6 +35,7 @@ code {
   --color-text-shadow: var(--color-purple3);
   --color-text-capital: var(--color-yellow);
   --color-text-X: var(--color-orange);
+  --color-text-body-title: var(--color-darkA);
 
   --color-purple1: #d3cce3;
   --color-purple2: #e9e4f0;
@@ -49,12 +45,14 @@ code {
   --color-black: #000000;
   --color-yellow: #fcd53f;
   --color-orange: #fc6d00;
+  --color-darkA: rgb(12 24 64);
+
+  --color-coupang: #03aaf8;
 
   /* Font */
-  --font-googleHeader: "googleBlackHanSans";
-  --font-googleAnton: "googleAnton";
   --font-gccJalnan2: "gccJalnan2";
   --font-cafe24surround: "cafe24surround";
+  --font-notosans: "notosans";
 }
 
 * {

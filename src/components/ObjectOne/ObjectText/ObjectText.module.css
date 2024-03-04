@@ -1,0 +1,48 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+}
+.title {
+  color: var(--color-darkA);
+  font-family: var(--font-cafe24surround);
+  font-size: 30px;
+  text-decoration: none;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-bottom: 12px;
+  font-family: var(--font-notosans);
+}
+
+.linkButton {
+  padding: 15px 20px;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  background-color: var(--color-coupang);
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  text-align: left;
+  border: 1px solid #333;
+  width: fit-content;
+  transition: background-color 150ms;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  /* background: url(../../../assets/icons/coupang.svg); */
+  width: 20px;
+  height: 18px;
+  margin-left: 10px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

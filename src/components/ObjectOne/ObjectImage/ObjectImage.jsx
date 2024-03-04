@@ -6,19 +6,19 @@ export default function ObjectImage() {
     <div className={styles.product}>
       <div className={styles.inner}>
         <img
-          className={`${styles.picture} ${styles.one}`}
+          className={styles.picture}
           src="/images/flyclapping/flyclapping_orange.png"
           alt="flyclapping_orange"
           loading="lazy"
         ></img>
         <img
-          className={`${styles.picture} ${styles.two}`}
+          className={styles.picture}
           src="/images/flyclapping/flyclapping_white.png"
           alt="flyclapping_white"
           loading="lazy"
         ></img>
         <img
-          className={`${styles.picture} ${styles.three}`}
+          className={styles.picture}
           src="/images/flyclapping/flyclapping_yellow.png"
           alt="flyclapping_yellow"
           loading="lazy"
