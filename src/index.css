@@ -39,6 +39,7 @@ code {
   --color-text-header: var(--color-white);
   --color-text-shadow: var(--color-purple3);
   --color-text-capital: var(--color-yellow);
+  --color-text-X: var(--color-orange);
 
   --color-purple1: #d3cce3;
   --color-purple2: #e9e4f0;
@@ -47,6 +48,7 @@ code {
   --color-white: #ffffff;
   --color-black: #000000;
   --color-yellow: #fcd53f;
+  --color-orange: #fc6d00;
 
   /* Font */
   --font-googleHeader: "googleBlackHanSans";

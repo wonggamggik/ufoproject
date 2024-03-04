@@ -10,7 +10,11 @@ export default function TitleHeader() {
           <span>🛸</span>
         </div>
         <h1 className={styles.title__main}>
-          <span>U</span>seless <span>F</span>ucking <span>O</span>bjects
+          <span className={styles.title__main_capital}>U</span>seless{" "}
+          <span className={styles.title__main_capital}>F</span>u
+          <span className={styles.title__main_x}>XX</span>ing{" "}
+          <span className={styles.title__main_capital}>O</span>
+          bjects
         </h1>
       </a>
       {/* 문구 */}

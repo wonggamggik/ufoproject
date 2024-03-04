@@ -26,8 +26,12 @@
   margin: 30px;
 }
 
-.title__main > span {
+.title__main_capital {
   color: var(--color-text-capital);
+}
+
+.title__main_x {
+  color: var(--color-text-X);
 }
 
 .title__sub {
