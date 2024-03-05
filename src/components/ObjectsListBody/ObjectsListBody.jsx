@@ -1,8 +1,11 @@
 import { React, useState, useEffect } from "react";
 import ObjectOne from "../ObjectOne/ObjectOne";
+import styles from "./ObjectsListBody.module.css";
 
 export default function ObjectsListBody() {
   const [objects, setObjects] = useState([]);
+  const notObjects = [...objects];
+  const shuffledObjects = shuffleObject(notObjects);
 
   useEffect(() => {
     fetch("data/objects.json")
@@ -18,9 +21,17 @@ export default function ObjectsListBody() {
 
   return (
     <div>
-      {objects.map((object) => (
-        <ObjectOne object={object} />
+      {shuffledObjects.map((object, index) => (
+        <ObjectOne object={object} index={index} />
       ))}
     </div>
   );
+}
+
+function shuffleObject(objects) {
+  for (let i = objects.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [objects[i], objects[j]] = [objects[j], objects[i]];
+  }
+  return objects;
 }

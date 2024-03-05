@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .product .inner {
@@ -11,21 +12,21 @@
   align-items: center;
 }
 
-img:nth-child(1) {
+.picture:nth-child(1) {
   align-self: flex-end;
 }
 
-img:nth-child(2) {
+.picture:nth-child(2) {
   margin-top: -15px;
   margin-bottom: -15px;
   align-self: flex-start;
 }
 
-img:nth-child(3) {
+.picture:nth-child(3) {
   align-self: flex-end;
 }
 
-img {
+.picture {
   max-width: 220px;
   height: 220px;
   border: 10px solid #f5f5f5;

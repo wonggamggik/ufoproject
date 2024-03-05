@@ -30,6 +30,7 @@ code {
 :root {
   /* Color */
   --color-background: var(--color-purple-light);
+  --color-oddBackground: var(--color-pink);
 
   --color-text-header: var(--color-white);
   --color-text-shadow: var(--color-purple-heavy);
@@ -42,6 +43,7 @@ code {
   --color-yellow: #fcd53f;
   --color-orange: #fc6d00;
   --color-darkA: rgb(12 24 64);
+  --color-pink: #fce3f7;
 
   --color-white: #ffffff;
   --color-black: #000000;

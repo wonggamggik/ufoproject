@@ -3,10 +3,10 @@ import ObjectImage from "./ObjectImage/ObjectImage";
 import ObjectText from "./ObjectText/ObjectText";
 import styles from "./ObjectOne.module.css";
 
-export default function ObjectOne({ object }) {
-  // console.log(object);
+export default function ObjectOne({ object, index }) {
+  console.log(index);
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} ${getIndexColor(index)}`}>
       <article>
         <div className={styles.wrapper_inner}>
           <ObjectImage image={object.objectImage} />
@@ -16,4 +16,11 @@ export default function ObjectOne({ object }) {
       </article>
     </div>
   );
+}
+
+function getIndexColor(index) {
+  if (index % 2 == 0) {
+    return styles.evenBackground;
+  }
+  return styles.oddBackground;
 }

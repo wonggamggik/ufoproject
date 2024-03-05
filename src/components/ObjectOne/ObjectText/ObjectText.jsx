@@ -11,19 +11,30 @@ export default function ObjectText({ text }) {
     <div className={styles.content}>
       <h1 className={styles.title}>{title}</h1>
       {descriptions.map((description) => (
-        <p className={styles.description}>
-          &nbsp;&nbsp;&nbsp;&nbsp;{description}
-        </p>
+        <p className={styles.description}>&nbsp;&nbsp;{description}</p>
       ))}
       <a
         href={siteUrl}
         rel="nofollow"
-        className={styles.linkButton}
+        className={`${styles.linkButton} ${getSiteStyleName(site)}`}
         target="_blank"
       >
         {title} to {site}
-        <span className={styles.logo}></span>
+        {/* <img className={`${styles.logo}`}></img> */}
       </a>
     </div>
   );
+}
+
+function getSiteStyleName(site) {
+  switch (site) {
+    case "쿠팡":
+      return styles.linkButton_coupang;
+    case "아이디어스":
+      return styles.linkButton_idus;
+    case "펀샵":
+      return styles.linkButton_funshop;
+    default:
+      return;
+  }
 }
