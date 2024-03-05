@@ -3,13 +3,14 @@ import ObjectImage from "./ObjectImage/ObjectImage";
 import ObjectText from "./ObjectText/ObjectText";
 import styles from "./ObjectOne.module.css";
 
-export default function ObjectOne() {
+export default function ObjectOne({ object }) {
+  // console.log(object);
   return (
     <div className={styles.wrapper}>
       <article>
         <div className={styles.wrapper_inner}>
-          <ObjectImage />
-          <ObjectText />
+          <ObjectImage image={object.ObjectImage} />
+          <ObjectText text={object.objectText} />
         </div>
         {/* ::after - 구분선 나오게 할 부분 */}
       </article>

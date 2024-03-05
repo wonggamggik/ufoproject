@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ObjectImage.module.css";
 
-export default function ObjectImage() {
+export default function ObjectImage({ image }) {
   return (
     <div className={styles.product}>
       <div className={styles.inner}>
