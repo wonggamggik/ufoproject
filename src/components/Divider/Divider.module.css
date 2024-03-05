@@ -1,0 +1,9 @@
+.wave {
+  height: 150px;
+  overflow: hidden;
+  filter: drop-shadow(2px 2px 0px #7e3688);
+}
+
+.wave img {
+  width: 100%;
+}
