@@ -4,7 +4,6 @@ import styles from "./TitleHeader.module.css";
 export default function TitleHeader() {
   return (
     <div className={styles.header}>
-      {/* Title */}
       <a href="/">
         <div className={styles.ufo}>
           <span>🛸</span>
@@ -17,7 +16,6 @@ export default function TitleHeader() {
           bjects
         </h1>
       </a>
-      {/* 문구 */}
       <h2 className={styles.title__sub}>No-Idea Yes-Useless</h2>
       {/* 제안 - 개발자 이야기  / RSS가 있으나 무엇인지 몰라 보류*/}
       <h2>

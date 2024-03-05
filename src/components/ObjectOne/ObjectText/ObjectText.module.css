@@ -37,42 +37,29 @@
 }
 
 .linkButton_coupang {
-  background-color: var(--color-coupang);
+  background-color: var(--color-coupang-counter);
 }
 
 .linkButton_idus {
-  background-color: var(--color-idus);
+  background-color: var(--color-idus-counter);
 }
 
 .linkButton_funshop {
-  color: var(--color-white);
-  background-color: var(--color-funshop);
+  background-color: var(--color-funshop-counter);
 }
 
 .logo {
   display: inline-block;
-  background: url(../../../assets/icons/coupang.svg);
-  object-fit: cover;
+  object-fit: contain;
   width: 20px;
   height: 20px;
   margin-left: 10px;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 100%;
 }
 
 .logo svg {
   width: 100%;
   height: 100%;
 }
-
-/* .logo_coupang {
-  background: url(../../../assets/icons/coupang.svg);
-}
-
-.logo_idus {
-  background: url(../../../assets/icons/coupang.svg);
-}
-
-.logo_funshop {
-  background: url(../../../assets/icons/coupang.svg);
-} */

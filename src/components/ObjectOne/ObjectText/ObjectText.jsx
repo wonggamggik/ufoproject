@@ -7,6 +7,8 @@ export default function ObjectText({ text }) {
   const site = text.sell.site;
   const siteUrl = text.sell.url;
 
+  const siteIcon = getSiteStyleIcon(site);
+
   return (
     <div className={styles.content}>
       <h1 className={styles.title}>{title}</h1>
@@ -22,7 +24,7 @@ export default function ObjectText({ text }) {
         target="_blank"
       >
         {title} to {site}
-        {/* <img className={`${styles.logo}`}></img> */}
+        <img className={styles.logo} src={siteIcon}></img>
       </a>
     </div>
   );
@@ -36,6 +38,19 @@ function getSiteStyleName(site) {
       return styles.linkButton_idus;
     case "펀샵":
       return styles.linkButton_funshop;
+    default:
+      return;
+  }
+}
+
+function getSiteStyleIcon(site) {
+  switch (site) {
+    case "쿠팡":
+      return "/images/icons/coupang_logo.png";
+    case "아이디어스":
+      return "/images/icons/idus_logo.png";
+    case "펀샵":
+      return "/images/icons/funshop_logo.png";
     default:
       return;
   }
