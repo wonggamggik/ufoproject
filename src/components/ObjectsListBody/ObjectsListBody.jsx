@@ -22,7 +22,7 @@ export default function ObjectsListBody() {
   return (
     <div>
       {shuffledObjects.map((object, index) => (
-        <ObjectOne object={object} index={index} />
+        <ObjectOne object={object} index={index} key={index} />
       ))}
     </div>
   );

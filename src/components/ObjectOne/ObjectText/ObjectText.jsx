@@ -10,8 +10,10 @@ export default function ObjectText({ text }) {
   return (
     <div className={styles.content}>
       <h1 className={styles.title}>{title}</h1>
-      {descriptions.map((description) => (
-        <p className={styles.description}>&nbsp;&nbsp;{description}</p>
+      {descriptions.map((description, index) => (
+        <p className={styles.description} key={index}>
+          &nbsp;&nbsp;{description}
+        </p>
       ))}
       <a
         href={siteUrl}

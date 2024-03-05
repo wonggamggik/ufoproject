@@ -4,7 +4,6 @@ import ObjectText from "./ObjectText/ObjectText";
 import styles from "./ObjectOne.module.css";
 
 export default function ObjectOne({ object, index }) {
-  console.log(index);
   return (
     <div className={`${styles.wrapper} ${getIndexColor(index)}`}>
       <article>
