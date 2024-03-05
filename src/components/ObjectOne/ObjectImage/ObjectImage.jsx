@@ -7,20 +7,20 @@ export default function ObjectImage({ image }) {
       <div className={styles.inner}>
         <img
           className={styles.picture}
-          src="/images/flyclapping/flyclapping_orange.png"
-          alt="flyclapping_orange"
+          src={image[0].src}
+          alt={image[0].alt}
           loading="lazy"
         ></img>
         <img
           className={styles.picture}
-          src="/images/flyclapping/flyclapping_white.png"
-          alt="flyclapping_white"
+          src={image[1].src}
+          alt={image[1].alt}
           loading="lazy"
         ></img>
         <img
           className={styles.picture}
-          src="/images/flyclapping/flyclapping_yellow.png"
-          alt="flyclapping_yellow"
+          src={image[2].src}
+          alt={image[2].alt}
           loading="lazy"
         ></img>
       </div>

@@ -3,17 +3,18 @@ import styles from "./ObjectText.module.css";
 
 export default function ObjectText({ text }) {
   const title = text.title;
-  const description = text.description;
+  const descriptions = text.description;
   const site = text.sell.site;
   const siteUrl = text.sell.url;
-  // console.log(title);
-  // console.log(site);
-  // console.log(siteUrl);
 
   return (
     <div className={styles.content}>
       <h1 className={styles.title}>{title}</h1>
-      <p className={styles.description}>{description}</p>
+      {descriptions.map((description) => (
+        <p className={styles.description}>
+          &nbsp;&nbsp;&nbsp;&nbsp;{description}
+        </p>
+      ))}
       <a
         href={siteUrl}
         rel="nofollow"

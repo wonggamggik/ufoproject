@@ -36,6 +36,18 @@
   align-items: center;
 }
 
+.linkButton_coupang {
+  background-color: var(--color-coupang);
+}
+
+.linkButton_idus {
+  background-color: var(--color-idus);
+}
+
+.linkButton_funshop {
+  background-color: var(--color-funshop);
+}
+
 .logo {
   display: inline-block;
   /* background: url(../../../assets/icons/coupang.svg); */
@@ -46,3 +58,15 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* .logo_coupang {
+  background: url(../../../assets/icons/coupang.svg);
+}
+
+.logo_idus {
+  background: url(../../../assets/icons/coupang.svg);
+}
+
+.logo_funshop {
+  background: url(../../../assets/icons/coupang.svg);
+} */

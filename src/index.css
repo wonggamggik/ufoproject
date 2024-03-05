@@ -29,25 +29,26 @@ code {
 
 :root {
   /* Color */
-  --color-background: var(--color-purple4);
+  --color-background: var(--color-purple-light);
 
   --color-text-header: var(--color-white);
-  --color-text-shadow: var(--color-purple3);
+  --color-text-shadow: var(--color-purple-heavy);
   --color-text-capital: var(--color-yellow);
   --color-text-X: var(--color-orange);
   --color-text-body-title: var(--color-darkA);
 
-  --color-purple1: #d3cce3;
-  --color-purple2: #e9e4f0;
-  --color-purple3: #8239e7;
-  --color-purple4: #ad7def;
-  --color-white: #ffffff;
-  --color-black: #000000;
+  --color-purple-heavy: #8239e7;
+  --color-purple-light: #ad7def;
   --color-yellow: #fcd53f;
   --color-orange: #fc6d00;
   --color-darkA: rgb(12 24 64);
 
+  --color-white: #ffffff;
+  --color-black: #000000;
+
   --color-coupang: #03aaf8;
+  --color-idus: #ef7013;
+  --color-funshop: #1846b7;
 
   /* Font */
   --font-gccJalnan2: "gccJalnan2";
