@@ -7,7 +7,7 @@ export default function ObjectText({ text }) {
   const site = text.sell.site;
   const siteUrl = text.sell.url;
 
-  const siteIcon = getSiteStyleIcon(site);
+  const siteIcon = "/images/icons/ufo-spaceship-svgrepo-com.svg";
 
   return (
     <div className={styles.content}>
@@ -24,7 +24,7 @@ export default function ObjectText({ text }) {
         target="_blank"
       >
         {title} to {site}
-        <img className={styles.logo} src={siteIcon}></img>
+        <img className={styles.logo} src={siteIcon} alt="site"></img>
       </a>
     </div>
   );
@@ -46,11 +46,11 @@ function getSiteStyleName(site) {
 function getSiteStyleIcon(site) {
   switch (site) {
     case "쿠팡":
-      return "/images/icons/coupang_logo.png";
+      return "/images/icons/ufo-spaceship-svgrepo-com.svg";
     case "아이디어스":
-      return "/images/icons/idus_logo.png";
+      return "/images/icons/ufo-spaceship-svgrepo-com.svg";
     case "펀샵":
-      return "/images/icons/funshop_logo.png";
+      return "/images/icons/ufo-spaceship-svgrepo-com.svg";
     default:
       return;
   }
