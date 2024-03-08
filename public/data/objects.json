@@ -9,21 +9,21 @@
       ],
       "sell": {
         "site": "쿠팡",
-        "url": "https://www.coupang.com/vp/products/6528201285?itemId=14488982001&vendorItemId=81732167530&q=%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94+%EB%AC%BC%EA%B1%B4&itemsCount=27&searchId=4c2f82c40c1d46f8805b1141b6da4931&rank=23&isAddedCart="
+        "url": "https://unsplash.com/ko"
       }
     },
     "objectImage": [
       {
-        "src": "/images/flyclapping/flyclapping_orange.png",
-        "alt": "flyclapping_orange"
+        "src": "/images/clapping/clapping1.jpg",
+        "alt": "clapping"
       },
       {
-        "src": "/images/flyclapping/flyclapping_white.png",
-        "alt": "flyclapping_white"
+        "src": "/images/clapping/clapping2.jpg",
+        "alt": "clapping"
       },
       {
-        "src": "/images/flyclapping/flyclapping_yellow.png",
-        "alt": "flyclapping_yellow"
+        "src": "/images/clapping/clapping3.jpg",
+        "alt": "clapping"
       }
     ]
   },
@@ -37,21 +37,21 @@
       ],
       "sell": {
         "site": "쿠팡",
-        "url": "https://www.coupang.com/vp/products/5258644007?itemId=7466610969&vendorItemId=74757725344&q=%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94+%EC%84%A0%EB%AC%BC&itemsCount=27&searchId=9b178309d327495797c8289a2074614d&rank=18&isAddedCart="
+        "url": "https://unsplash.com/ko"
       }
     },
     "objectImage": [
       {
-        "src": "/images/trumpSocks/trumpSocks1.jpg",
-        "alt": "trumpSocks"
+        "src": "/images/trump/trump1.jpg",
+        "alt": "trump"
       },
       {
-        "src": "/images/trumpSocks/trumpSocks2.jpg",
-        "alt": "trumpSocks"
+        "src": "/images/trump/trump2.jpg",
+        "alt": "trump"
       },
       {
-        "src": "/images/trumpSocks/trumpSocks3.png",
-        "alt": "trumpSocks"
+        "src": "/images/trump/trump3.jpg",
+        "alt": "trump"
       }
     ]
   },
@@ -65,21 +65,21 @@
       ],
       "sell": {
         "site": "쿠팡",
-        "url": "https://www.coupang.com/vp/products/7445642325?itemId=19371464255&vendorItemId=86484245944&q=%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94+%EC%84%A0%EB%AC%BC&itemsCount=27&searchId=e21a055be95a42f99c2ff5e99cdabad2&rank=39&isAddedCart="
+        "url": "https://unsplash.com/ko"
       }
     },
     "objectImage": [
       {
-        "src": "/images/moaiStoneTissueCase/moaiStoneTissueCase1.jpg",
-        "alt": "moaiStoneTissueCase"
+        "src": "/images/moai/moai1.jpg",
+        "alt": "moai"
       },
       {
-        "src": "/images/moaiStoneTissueCase/moaiStoneTissueCase2.jpg",
-        "alt": "moaiStoneTissueCase"
+        "src": "/images/moai/moai2.jpg",
+        "alt": "moai"
       },
       {
-        "src": "/images/moaiStoneTissueCase/moaiStoneTissueCase3.jpg",
-        "alt": "moaiStoneTissueCase"
+        "src": "/images/moai/moai3.jpg",
+        "alt": "moai"
       }
     ]
   },
@@ -94,21 +94,21 @@
       ],
       "sell": {
         "site": "쿠팡",
-        "url": "https://www.coupang.com/vp/products/7368851881?itemId=19003562406&vendorItemId=86128544752&q=%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94+%EC%84%A0%EB%AC%BC&itemsCount=27&searchId=666c600ca7ba4cedb09f45b22f64d201&rank=15&isAddedCart="
+        "url": "https://unsplash.com/ko"
       }
     },
     "objectImage": [
       {
-        "src": "/images/kissCup/kissCup1.jpg",
-        "alt": "kissCup"
+        "src": "/images/kiss/kiss1.jpg",
+        "alt": "kiss"
       },
       {
-        "src": "/images/kissCup/kissCup2.jpg",
-        "alt": "kissCup"
+        "src": "/images/kiss/kiss2.jpg",
+        "alt": "kiss"
       },
       {
-        "src": "/images/kissCup/kissCup3.jpg",
-        "alt": "kissCup"
+        "src": "/images/kiss/kiss3.jpg",
+        "alt": "kiss"
       }
     ]
   },
@@ -123,21 +123,21 @@
       ],
       "sell": {
         "site": "쿠팡",
-        "url": "https://www.coupang.com/vp/products/7804064854?itemId=21143362871&vendorItemId=88204967672&q=%EC%93%B8%EB%8D%B0%EC%97%86%EB%8A%94+%EC%84%A0%EB%AC%BC&itemsCount=27&searchId=666c600ca7ba4cedb09f45b22f64d201&rank=20&isAddedCart="
+        "url": "https://unsplash.com/ko"
       }
     },
     "objectImage": [
       {
-        "src": "/images/elephantPajamas/elephantPajamas1.jpg",
-        "alt": "elephantPajamas"
+        "src": "/images/elephant/elephant1.jpg",
+        "alt": "elephant"
       },
       {
-        "src": "/images/elephantPajamas/elephantPajamas2.jpg",
-        "alt": "elephantPajamas"
+        "src": "/images/elephant/elephant2.jpg",
+        "alt": "elephant"
       },
       {
-        "src": "/images/elephantPajamas/elephantPajamas3.jpg",
-        "alt": "elephantPajamas"
+        "src": "/images/elephant/elephant3.jpg",
+        "alt": "elephant"
       }
     ]
   }
