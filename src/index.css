@@ -37,6 +37,7 @@ code {
   --color-text-capital: var(--color-yellow);
   --color-text-X: var(--color-orange);
   --color-text-body-title: var(--color-darkA);
+  --color-button: var(--color-blue);
 
   --color-purple-heavy: #8239e7;
   --color-purple-light: #ad7def;
@@ -48,12 +49,7 @@ code {
   --color-white: #ffffff;
   --color-black: #000000;
 
-  --color-coupang: #03aaf8;
-  --color-coupang-counter: #26cfd8;
-  --color-idus: #ef7013;
-  --color-idus-counter: #1393ef;
-  --color-funshop: #1846b7;
-  --color-funshop-counter: #b78718;
+  --color-blue: #03aaf8;
 
   /* Font */
   --font-gccJalnan2: "gccJalnan2";

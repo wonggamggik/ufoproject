@@ -22,7 +22,7 @@
   padding: 15px 20px;
   font-size: 13px;
   letter-spacing: 0.3px;
-  background-color: var(--color-coupang);
+  background-color: var(--color-button);
   font-weight: bolder;
   text-decoration: none;
   color: black;
@@ -34,18 +34,6 @@
   transition: background-color 150ms;
   justify-content: center;
   align-items: center;
-}
-
-.linkButton_coupang {
-  background-color: var(--color-coupang-counter);
-}
-
-.linkButton_idus {
-  background-color: var(--color-idus-counter);
-}
-
-.linkButton_funshop {
-  background-color: var(--color-funshop-counter);
 }
 
 .logo {

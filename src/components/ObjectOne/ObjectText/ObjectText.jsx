@@ -20,7 +20,7 @@ export default function ObjectText({ text }) {
       <a
         href={siteUrl}
         rel="nofollow"
-        className={`${styles.linkButton} ${getSiteStyleName(site)}`}
+        className={`${styles.linkButton} ${site}`}
         target="_blank"
       >
         {title} to {site}
@@ -28,30 +28,4 @@ export default function ObjectText({ text }) {
       </a>
     </div>
   );
-}
-
-function getSiteStyleName(site) {
-  switch (site) {
-    case "쿠팡":
-      return styles.linkButton_coupang;
-    case "아이디어스":
-      return styles.linkButton_idus;
-    case "펀샵":
-      return styles.linkButton_funshop;
-    default:
-      return;
-  }
-}
-
-function getSiteStyleIcon(site) {
-  switch (site) {
-    case "쿠팡":
-      return "/images/icons/ufo-spaceship-svgrepo-com.svg";
-    case "아이디어스":
-      return "/images/icons/ufo-spaceship-svgrepo-com.svg";
-    case "펀샵":
-      return "/images/icons/ufo-spaceship-svgrepo-com.svg";
-    default:
-      return;
-  }
 }
