@@ -15,8 +15,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://wonggamggik.github.io/ufoproject/",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -31,6 +34,7 @@
   },
   "packageManager": "yarn@4.1.0",
   "devDependencies": {
-    "eslint-config-react-app": "^7.0.1"
+    "eslint-config-react-app": "^7.0.1",
+    "gh-pages": "^6.1.1"
   }
 }
