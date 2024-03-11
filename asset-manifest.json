@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ufoproject/static/css/main.cd8bf339.css",
+    "main.js": "/ufoproject/static/js/main.a790948f.js",
+    "static/js/453.d24df6b0.chunk.js": "/ufoproject/static/js/453.d24df6b0.chunk.js",
+    "static/media/NotoSansKR-VariableFont_wght.ttf": "/ufoproject/static/media/NotoSansKR-VariableFont_wght.33752a94ca5252213de8.ttf",
+    "static/media/Cafe24Ssurround-v2.0.ttf": "/ufoproject/static/media/Cafe24Ssurround-v2.0.70efcf8d91b99f6444fc.ttf",
+    "static/media/Jalnan2TTF.ttf": "/ufoproject/static/media/Jalnan2TTF.512497399460b79dd80f.ttf",
+    "index.html": "/ufoproject/index.html",
+    "main.cd8bf339.css.map": "/ufoproject/static/css/main.cd8bf339.css.map",
+    "main.a790948f.js.map": "/ufoproject/static/js/main.a790948f.js.map",
+    "453.d24df6b0.chunk.js.map": "/ufoproject/static/js/453.d24df6b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8bf339.css",
+    "static/js/main.a790948f.js"
+  ]
+}
